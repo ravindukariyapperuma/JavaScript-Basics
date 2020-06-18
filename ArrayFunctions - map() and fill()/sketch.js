@@ -1,4 +1,4 @@
-let vals = [4, 8, 1, 2, 9];
+let vals = new Array(100);
 
 vals = vals.map(x => Math.random());
 
