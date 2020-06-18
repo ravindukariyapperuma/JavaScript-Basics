@@ -1,6 +1,4 @@
-let vals = new Array(100);
-
-vals = vals.fill(0).map(Math.random);
+vals = Array(100).fill(0).map(Math.random);
 
 console.log(vals);
 
