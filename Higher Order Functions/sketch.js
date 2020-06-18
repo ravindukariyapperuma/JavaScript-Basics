@@ -1,13 +1,14 @@
 function sing(callback) {
     console.log('la la la la');
-    callback();
+    if (callback) {
+        callback();
+    }
+    
 }
 
 function meow() {
     console.log("meow meow");
 }
-
-sing(meow);
 
 function setup() {
 
