@@ -1,7 +1,7 @@
 function setup(){
-  let x = 50;
-  console.log(x);
-
-  x = 100;
-  console.log(x);
+  const y = 50;
+  console.log(y);
+  
+  y = 100;
+  console.log(y)
 }
