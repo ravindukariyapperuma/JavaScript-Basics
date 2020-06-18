@@ -1,6 +1,6 @@
 function sing(callback) {
     console.log('la la la la');
-    if (callback) {
+    if (callback instanceof Function) {
         callback();
     }
     
