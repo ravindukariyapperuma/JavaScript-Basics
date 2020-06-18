@@ -5,5 +5,5 @@ function doubler(x) {
     return x *2;
 }
 
-vals.map(doubler);
+vals = vals.map(doubler);
 console.log(vals);
