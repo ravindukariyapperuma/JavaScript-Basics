@@ -1,5 +1,7 @@
-function multiplier(x, factor) {
-    return x * factor; 
+function multiplier(factor) {
+    return function(x) {
+        return x * factor;
+    } 
 }
 
 function setup() {
