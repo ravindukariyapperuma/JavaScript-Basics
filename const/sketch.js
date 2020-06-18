@@ -1,7 +1,4 @@
 function setup(){
-  const y = 50;
-  console.log(y);
-  
-  y = 100;
-  console.log(y)
+  const particle = {x: 100, y: 100}; //object
+  console.log(particle);
 }
