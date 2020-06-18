@@ -3,7 +3,5 @@ console.log(vals);
 
 
 
-vals = vals.map( (x) => {
-    return x *2;
-});
+vals = vals.map( (x) => x *2 );
 console.log(vals);
