@@ -1,8 +1,22 @@
-function setup(){
-    createCanvas(600, 400);
-    background(0);
-    let button = createButton('press');
-    button.mousePressed(() => background(random(255)));
+let counter1;
 
-    
+function setup(){
+    noCanvas();
+    counter1 = new Counter();
+}
+
+function draw() {
+    counter1.countIt();
+}
+
+class Counter {
+    constructor() {
+        this.count = 0;
+        this.p = createP('');
+    }
+
+    countIt() {
+        this.count++;
+        this.p.html(this.count);
+    }
 }
