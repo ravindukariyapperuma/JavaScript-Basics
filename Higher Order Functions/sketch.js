@@ -1,9 +1,6 @@
 function multiplier(factor) {
-    return function(x) {
-        return x * factor;
-    } 
+    return x =>  x * factor;
 }
 
-function setup() {
-    
-}
+let doubler = multiplier(2);
+let tripler = multiplier(3);
