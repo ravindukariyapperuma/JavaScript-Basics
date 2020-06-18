@@ -8,4 +8,6 @@ function setup(){
   particle.z = 50;
   console.log(particle);
 
+  particle = {x:20,y:100};
+  console.log(particle);
 }
