@@ -3,7 +3,7 @@ console.log(vals);
 
 
 
-vals = vals.map(function doubler(x) {
+vals = vals.map( (x) => {
     return x *2;
 });
 console.log(vals);
