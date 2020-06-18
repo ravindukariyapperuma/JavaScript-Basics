@@ -4,4 +4,8 @@ function setup(){
 
   particle.x = 200;
   console.log(particle);
+
+  particle.z = 50;
+  console.log(particle);
+
 }
