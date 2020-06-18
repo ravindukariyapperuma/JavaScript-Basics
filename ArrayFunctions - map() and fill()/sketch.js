@@ -1,6 +1,6 @@
 let vals = [4, 8, 1, 2, 9];
 
-vals.fill(0);
+vals.fill(Math.random());
 
 console.log(vals);
 
